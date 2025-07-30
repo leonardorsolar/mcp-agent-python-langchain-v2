@@ -1,0 +1,24 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# VSCode
+.vscode/
+
+# Arquivo de variáveis de ambiente
+.env
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de log ou temporários
+*.log
+*.tmp
+
+# Configuração de dependências (caso seja gerado automaticamente)
+pip-wheel-metadata/
+*.egg-info/
