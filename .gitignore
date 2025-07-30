@@ -3,10 +3,7 @@
 venv/
 env/
 
-# VSCode
-.vscode/
-
-# Arquivo de variáveis de ambiente
+# Variáveis de ambiente (NUNCA commitar!)
 .env
 
 # Cache do Python
@@ -15,10 +12,9 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Arquivos de log ou temporários
-*.log
-*.tmp
+# IDEs
+.vscode/
+.idea/
 
-# Configuração de dependências (caso seja gerado automaticamente)
-pip-wheel-metadata/
-*.egg-info/
+# Logs
+*.log
